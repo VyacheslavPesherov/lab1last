@@ -8,6 +8,11 @@ build_job:
   script:
     - 'cd ConsoleApp2'
     - 'ls'
+    - 'cd ConsoleApp2'
+    - 'cd bin'
+    - 'cd Debug'
+    - 'cd netcoreapp2.1'
+    - 'dotnet ConsoleApp2.dll'
     - './nuget.exe restore'
     - './ConsoleApp2.sln'  
   artifacts:
