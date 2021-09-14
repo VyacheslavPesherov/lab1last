@@ -13,7 +13,7 @@ build_job:
     - 'cd Release'
     - 'cd netcoreapp2.1'
     - 'cd win-x64'
-    - 'ConsolApp2.exe'
+    - './ConsoleApp2.exe'
     - './nuget.exe restore'
     - './ConsoleApp2.sln'  
   artifacts:
