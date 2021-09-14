@@ -8,7 +8,7 @@ build_job:
   script:
     - 'cd ConsoleApp2'
     - 'ls'
-    - './nuget'
+    - './nuget.exe'
     - 'cd C:\Users\idina\Downloads\nuget.exe restore'
     - '& C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSbuild.exe" ConsoleApp2.sln'  
   artifacts:
