@@ -10,9 +10,10 @@ build_job:
     - 'ls'
     - 'cd ConsoleApp2'
     - 'cd bin'
-    - 'cd Debug'
+    - 'cd Release'
     - 'cd netcoreapp2.1'
-    - 'dotnet ConsoleApp2.dll'
+    - 'cd win-x64'
+    - './ConsolApp2.exe'
     - './nuget.exe restore'
     - './ConsoleApp2.sln'  
   artifacts:
