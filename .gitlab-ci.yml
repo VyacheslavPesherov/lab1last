@@ -8,7 +8,6 @@ build_job:
   script:
     - 'cd ConsoleApp2'
     - 'ls'
-    - 'sudo ./nuget.exe'
     - './ConsoleApp2.sln'  
   artifacts:
     paths:
